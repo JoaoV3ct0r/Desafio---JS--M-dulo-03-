@@ -85,3 +85,18 @@ button:hover{
 button:active{
     background: red;
 }
+
+@media screen and (max-width: 650px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        width: 280px;
+        height: 192px;
+    }
+    input{
+        display: flex;
+        margin: 10px auto;
+    }
+}
