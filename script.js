@@ -17,7 +17,7 @@ function generateButton(){
     const max = Math.floor(document.querySelector(".input-max").value)
     const text = document.querySelector("p")
 
-   
+
     if(max <= min){
         alert("O valor mínimo deve ser MENOR que o valor máximo.")
     } else{
